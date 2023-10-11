@@ -16,6 +16,7 @@ qt_add_qml_module(appQtQmlHelloQVariantMap
     URI QtQmlHelloQVariantMap
     VERSION 1.0
     QML_FILES Main.qml
+    SOURCES hotkeymanager.h
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
